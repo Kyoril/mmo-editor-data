@@ -8,5 +8,5 @@ c Vivienne Emberglow - Mage GossipGreetings, $N! *)!I want to improve m
 :$Vivienne Emberglow - Non-Mage GossipGreetings, $N! 
 _'Malrik Duskwright - Shadowmancer GossipGreetings, $N! *Teach me the dark arts(0
 A	+Malrik Duskwright - Non-Shadowmancer GossipGreetings, $N! 
-ƒ
-Trigger TestaHi! I am here to test the trigger system in conjunction with the gossip menu system! Let's start! *Say hi
+£
+Trigger TestaHi! I am here to test the trigger system in conjunction with the gossip menu system! Let's start! *Say hi*Bind me to this location
