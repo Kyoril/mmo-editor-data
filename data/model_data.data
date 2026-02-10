@@ -15,4 +15,6 @@ Cellar Rat"Models/Creatures/Boar/Boar.char
 EPLAYER - Orc Male Model"&Models/Character/Orc/Male/OrcMale.char
 KPLAYER - Orc Female Model"*Models/Character/Orc/Female/OrcFemale.char
 \Clarissa Whiteshield".Models/Character/Human/Female/HumanFemale.char***
-SElira Hawke".Models/Character/Human/Female/HumanFemale.char***
+SElira Hawke".Models/Character/Human/Female/HumanFemale.char***
+R PLAYER - Undead Human Male Model"*Models/Character/Human/Male/HumanMale.char
+X"PLAYER - Undead Human Female Model".Models/Character/Human/Female/HumanFemale.char

@@ -8,3 +8,6 @@
 PLAYER, Orc
 Orc Race Npcs
 	PLAYER, Human
+
+PLAYER, Undead
+Undead Race Npcs
