@@ -1,12 +1,10 @@
-name: Publish Docker Images
+# This workflow has been disabled. The mmo_data Docker image is now built and
+# published from the main repository (Dockerfile.data) so that it can include
+# both the server data and the data/client/Worlds folder in a single image.
+name: Publish Docker Images (disabled)
 
 on:
-  push:
-    branches:
-      - master
-
-env:
-  IMAGE_NAME_DATA: mmo_data
+  workflow_dispatch:
 
 jobs:
   push_to_registry:
@@ -25,11 +23,11 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-  
+
     - name: Build and push data image
       uses: docker/build-push-action@v2
       with:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME_DATA }}:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/mmo_data:latest
